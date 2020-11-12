@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.scss">
     <script src="https://kit.fontawesome.com/920fff83c0.js" crossorigin="anonymous"></script>
     <title>Paris Diaz Violin</title>
 </head>
@@ -22,6 +23,10 @@
         <li><a id="link" href="">Home</a></li>
         <li><a id="link"href="#bio">Biography</a></li>
         <li><a id="link" href="#contact">Contact</a></li>
+        <li><a id="link" href="blog.html">Blog</a></li>
+      </ul>
+      <ul class="right">
+        <li class="clock-text"></li>
       </ul>
     </div>
   </nav>
@@ -30,16 +35,18 @@
     <li><a href="">Home</a></li>
     <li><a href="#bio">Biography</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
   </ul>
 
-  
+
 
   <!-- Hero Banner-->
   <div class="landing-section" id="landing">
       <div class="landing-text">
           <h1>I am Paris Diaz</h1>
           <h4>Professional Violinist/ Music Educator</h4>
-        </div>  
+          <h2 class="clock-text"></h2>
+        </div>
   </div>
 
 
@@ -173,6 +180,7 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="script.js"></script>
+<script src="clock.js"></script>
 <script>
    $(document).ready(function(){
     $('.sidenav').sidenav();

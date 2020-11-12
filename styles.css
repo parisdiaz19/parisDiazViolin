@@ -8,6 +8,15 @@ body {
     width: 300px;
 }
 
+@media screen and (max-width: 600px) {
+    .brand-logo {
+        width: 150px;
+    }
+}
+
+.clock-text {
+    margin-right: 50px;
+}
 #link:hover {
     border: solid white;
 }
@@ -53,4 +62,5 @@ footer {
     display: inline;
     padding: 5px;
 }
+
 
