@@ -17,6 +17,14 @@ body {
 .clock-text {
     margin-right: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .clock-text {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+
 #link:hover {
     border: solid white;
 }
